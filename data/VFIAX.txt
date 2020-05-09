@@ -1,4 +1,5 @@
-Microsoft Corp.Apple Inc.
+Microsoft Corp.
+Apple Inc.
 Amazon.com Inc.
 Facebook Inc. Class A
 Berkshire Hathaway Inc. Class B
