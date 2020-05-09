@@ -23,7 +23,10 @@ public class Fund {
 	}
 
 	private static Set<String> intersectFunds(Set<Fund> funds) {
-		return funds.stream().map(fund -> fund.assets).reduce((soFar, thisOne) -> Sets.intersection(soFar, thisOne)).get();
+		return funds.stream()
+					.map(fund -> fund.assets)
+					.reduce((soFar, thisOne) -> Sets.intersection(soFar, thisOne))
+					.get();
 	}
 
 	private static String comboName(Set<Fund> funds) {
